@@ -102,11 +102,13 @@ pip install -r requirements.txt
 # Run Jupyter Notebook
 jupyter notebook campaign_analysis.ipynb
 
-Future Improvements
-
-Add ROI dashboard (Tableau / Power BI / Streamlit)
-
-Include A/B test simulation for campaign optimization
-
-Extend analysis with multi-channel attribution modeling
 ```
+## Future Improvements
+
+- Add ROI dashboard (Tableau / Power BI / Streamlit)
+
+- Include A/B test simulation for campaign optimization
+
+- Extend analysis with multi-channel attribution modeling
+
+
