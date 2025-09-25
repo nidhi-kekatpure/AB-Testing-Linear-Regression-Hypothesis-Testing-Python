@@ -1,6 +1,6 @@
 # Facebook vs AdWords Ad Campaign Analysis
 
-## 📝 Business Problem
+## Business Problem
 A marketing agency wants to maximize the **return on investment (ROI)** for clients’ advertising campaigns.  
 We ran **two ad campaigns** (Facebook and AdWords) in 2019 and need to determine:
 
@@ -110,6 +110,7 @@ jupyter notebook campaign_analysis.ipynb
 - Include A/B test simulation for campaign optimization
 
 - Extend analysis with multi-channel attribution modeling
+
 
 
 
