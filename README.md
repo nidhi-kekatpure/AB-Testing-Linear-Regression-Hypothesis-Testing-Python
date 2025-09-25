@@ -1,4 +1,4 @@
-# 📊 Facebook vs AdWords Ad Campaign Analysis
+# Facebook vs AdWords Ad Campaign Analysis
 
 ## 📝 Business Problem
 A marketing agency wants to maximize the **return on investment (ROI)** for clients’ advertising campaigns.  
@@ -12,12 +12,12 @@ The findings will help optimize budget allocation and advertising strategies.
 
 ---
 
-## ❓ Research Question
+## Research Question
 **Which ad platform is more effective in terms of conversions, clicks, and overall cost-effectiveness?**
 
 ---
 
-## 📂 Dataset
+## Dataset
 - **Period:** Jan 1 – Dec 31, 2019 (365 days)  
 - **Platforms:** Facebook & AdWords  
 - **Features:**  
@@ -31,44 +31,44 @@ The findings will help optimize budget allocation and advertising strategies.
 
 ---
 
-## 🛠️ Tools & Libraries
+## Tools & Libraries
 ```python
 pandas, matplotlib, seaborn, numpy, scipy.stats
 sklearn (Linear Regression, metrics)
 statsmodels (time-series decomposition, cointegration)
 
 ```
-## 🔍 Analysis Performed
+## Analysis Performed
 
-### 📌 Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 - Histograms for clicks & conversions  
 - Conversion categories comparison  
 - Weekly & monthly conversion trends  
 
-### 📌 Correlation Analysis
+### Correlation Analysis
 - **Facebook Clicks vs Conversions** → Strong correlation (**0.87**)  
 - **AdWords Clicks vs Conversions** → Moderate correlation (**0.45**)  
 
-### 📌 Hypothesis Testing
+### Hypothesis Testing
 - **H0:** µ_Facebook ≤ µ_AdWords  
 - **H1:** µ_Facebook > µ_AdWords  
 - **Result:** ✅ Reject H0 (Facebook conversions significantly higher, *p ≈ 0*)  
 
-### 📌 Regression Analysis
+### Regression Analysis
 - Linear Regression model for **Facebook clicks → conversions**  
 - Predictive power: **R² ≈ 76%**  
 - Example:  
   - 50 clicks → ~13 conversions  
   - 80 clicks → ~19 conversions  
 
-### 📌 Cost & ROI Analysis
+### Cost & ROI Analysis
 - Monthly **Cost per Conversion (CPC)** trends  
 - Facebook more cost-efficient in **May & November**  
 - **Cointegration test** shows long-term equilibrium between ad spend & conversions  
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 - **Facebook outperformed AdWords** in both conversions and cost-effectiveness.  
 - **Average Conversions/day:**  
   - Facebook ≈ **11.74**  
@@ -79,7 +79,7 @@ statsmodels (time-series decomposition, cointegration)
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 This analysis produces the following plots:  
 - Conversion distributions (histograms)  
 - Frequency of daily conversions by category (bar chart)  
@@ -89,7 +89,7 @@ This analysis produces the following plots:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 # Clone repo
@@ -110,5 +110,6 @@ jupyter notebook campaign_analysis.ipynb
 - Include A/B test simulation for campaign optimization
 
 - Extend analysis with multi-channel attribution modeling
+
 
 
