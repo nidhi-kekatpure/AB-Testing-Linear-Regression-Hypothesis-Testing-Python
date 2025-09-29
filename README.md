@@ -11,7 +11,11 @@ We ran **two ad campaigns** (Facebook and AdWords) in 2019 and need to determine
 The findings will help optimize budget allocation and advertising strategies.
 
 ---
+## Click link below for the app
 
+https://facebook-vs-adwords-analysis.streamlit.app/
+
+---
 ## Research Question
 **Which ad platform is more effective in terms of conversions, clicks, and overall cost-effectiveness?**
 
@@ -105,11 +109,10 @@ jupyter notebook campaign_analysis.ipynb
 ```
 ## Future Improvements
 
-- Add ROI dashboard (Tableau / Power BI / Streamlit)
-
 - Include A/B test simulation for campaign optimization
 
 - Extend analysis with multi-channel attribution modeling
+
 
 
 
