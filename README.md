@@ -12,6 +12,12 @@ The findings will help optimize budget allocation and advertising strategies.
 
 ---
 
+## Live Demo
+
+**Try the app now**: https://facebook-vs-adwords-analysis.streamlit.app/
+
+---
+
 ## Research Question
 **Which ad platform is more effective in terms of conversions, clicks, and overall cost-effectiveness?**
 
@@ -110,6 +116,7 @@ jupyter notebook campaign_analysis.ipynb
 - Include A/B test simulation for campaign optimization
 
 - Extend analysis with multi-channel attribution modeling
+
 
 
 
